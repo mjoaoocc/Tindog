@@ -1,0 +1,160 @@
+body{
+    font-family: "Montserrat";
+}
+/* Header Section */
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+    color: white;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.image-container{
+    position: relative;
+}
+
+.phone-img{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* Navbar Section */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: light;
+    
+}
+
+/* Features Section */
+#features{
+    text-align: center;
+    padding: 7% 10%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.feat-items{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+#feat-desc{
+    color: #8f8f8f;
+}
+.feat-icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.feat-blocks{
+    padding: 5%;
+}
+.feat-icon:hover{
+    color: #ff4c68;
+}
+/* Testemonial Section */
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+h2{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.test-img{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 10%;
+}
+/* Press Section */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px
+}
+
+/* Pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* CTA Section */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+    color: #fff;
+}
+.cta-text{
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer{
+    text-align: center;
+    padding: 5%;
+    color: #8f8f8f;
+    font-size: 0.8rem;
+}
+.icons{
+    padding: 1% 1% 3%;
+    color: black;
+}
+
+@media (max-width: 1028px){
+    .phone-img{
+    position: static;
+    transform: rotate(0);
+}
+h1{
+    text-align: center;
+}
+.image-container{
+    text-align: center;
+}
+.download-button-container{
+    text-align: center;
+}
+}
